@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+        <head>
+        <title>form</title>
+    </head>
+    <body bgcolor="white" text="black">
+        <h2 style=color:blue> Registration Form</h2>
+        <form action="processlogin" method="get">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" value="" ><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"  value=""><br>
+
+            <label for="Email">Email Address:</label><br>
+            <input type="text" id="mail" name="Email" ><br>
+
+            Password:
+            <input type="text"  name="txtpw" placeholder="Enter Password"required><br>
+
+            Confirm Password:
+            <input type="text" name="txtrw" placeholder="Re-type password"required ><br>
+
+            <label for="DOB">Date of Birth:</label><br>
+            <input type="Date" id="DOB" name="DOB" ><br>
+
+            <label for="Male">Male:</label><br>
+            <input type="radio" id="Male" name="Male" ><br>
+
+            <label for="Male">Female:</label><br>
+            <input type="radio" id="Female" name="Female" ><br>
+            <label for="Country">Country Name:</label><br>
+            <input type="checkbox" id="Country" name="Country Name" ><br>
+
+<select>
+    <option value="">India</option>
+    <option value="">America</option>
+    <option value="">Germany</option>
+    <option value="">United state</option>
+    </select>
+        
+            <label for="Submit"></label><br>
+            <input type="submit" id="submit" name="submit" ><br>
+
+            <input type="Reset" name="cmdreset" value="clear">
+
+        </form>
+    </body>
+</html>
