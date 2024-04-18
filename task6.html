@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    //<meta charset="UTF-8">//
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+     <style>
+        h1{
+            text-align: center;
+            text-justify: auto;
+            color:red;
+            }
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <br>
+    <h3>Thank you for taking the time to provide your valuable feedback.
+     </h3>
+    <br><hr>
+    <!-- text field  -->
+    <form action="">
+        <label for="cname">Name (optinal)</label><br>
+        <input type="text" placeholder="enter your name:"><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="enter your Email Id"><br><br><hr>
+        <!-- MULTIPLE CHOICE -->
+        <div>
+            <label for=""> Which of the following features would you like to see in our next update?</label><br>       
+            <input type="checkbox"> Mobile App</input><br>
+            <input type="checkbox"> qulity</input><br>
+            <input type="checkbox"> Price</input><br>
+                        
+            <br><br><hr>
+        </div>
+        <!-- radio buttons -->
+        <div>
+            <label for="radio">How often do you conduct surveys?</label>
+            <input type="radio" name="radio">Daily</input><br>
+            <input type="radio" name="radio"> Weekly</input><br>
+            <input type="radio" name="radio">Monthly</input><br>
+            <input type="radio" name="radio">Occasionally</input><br>
+            <br><br> <hr>          
+        </div>
+        <!-- textarea  -->
+        <div>
+            <label for="textarea">What improvements would you suggest to enhance our services?</label><br>
+            <textarea name="textarea" rows="10" cols="50"> </textarea>
+        </div><br><br><hr>
+        <!-- Dropdown Menu -->
+        <div>
+            <label for="Dropdown">Which age group do you belong to?</label><br>
+            <select name="Dropdown" id="Dropdown">
+                <option value="Dropdown"> Under 18</option>
+                <option value="Dropdown"> 18-24</option>
+                <option value="Dropdown"> 25-34</option>
+                <option value="Dropdown"> 35-44</option>
+                <option value="Dropdown"> 45-54</option>
+                <option value="Dropdown"> 55-64</option>
+                <option value="Dropdown"> 65+</option>
+            </select>>
+
+        <!-- Rating scales -->
+        <div>
+            <label for=""> Please rate </label>
+            <input type="radio" name="Rating">low</input>
+            <input type="radio" name="Rating">average</input>
+            <input type="radio" name="Rating">good</input>
+            <input type="radio" name="Rating">great</input>
+            <input type="radio" name="Rating">excellent</input>
+        </div><br><br><hr>
+        
+        </div><br><br>
+            </select>>
+        <input type="submit">
+        <p>Thank you for your participation! Your feedback is highly appreciated.</p>
+    </form>
+
+</body>
+</html>
