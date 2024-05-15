@@ -41,7 +41,7 @@
 <h3 align="center">
 
 	<a href="#">
-		<font face="Lato" color="#000">GET STARTED</font>
+		<font face="Lato" color="#000">GET STARTED</font></a>
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="#">
 		<font face="Lato" color="#fff">SUBSCRIBE US</font>
